@@ -6,3 +6,5 @@ Template for projects. Inspired by [this repo](https://github.com/louisguitton/s
 
     pip install cookiecutter
     cookiecutter https://github.com/NicolasPeruchot/template_repo
+    cd project_dir
+    make cookie
