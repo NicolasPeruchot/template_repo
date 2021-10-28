@@ -56,4 +56,3 @@ repos:
     hooks:
       - id: forbid-tabs
         exclude: Makefile
-
