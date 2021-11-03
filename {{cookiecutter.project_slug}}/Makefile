@@ -1,7 +1,7 @@
 cookie:
 	mv * .pre-commit-config.yaml .gitignore ../
-	cd ..; make install
+	cd ..; make develop
 
-install:
-	python -m pip install -r requirements.txt
+develop:
+	pip install -e '.[dev]'
 	pre-commit install
