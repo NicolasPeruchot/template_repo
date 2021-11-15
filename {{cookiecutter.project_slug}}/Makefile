@@ -1,5 +1,5 @@
 cookie:
-	mv * .pre-commit-config.yaml .gitignore ../
+	mv * .pre-commit-config.yaml .gitignore .github/* ../
 	cd ..; make develop
 
 develop:
