@@ -1,4 +1,5 @@
 {
   "project": "project",
-  "project_slug": "{{ cookiecutter.project.lower().replace(' ', '_').replace('-', '_') }}"
+  "project_slug": "{{ cookiecutter.project.lower().replace(' ', '_').replace('-', '_') }}",
+  "_copy_without_render": [".github/*"]
 }
