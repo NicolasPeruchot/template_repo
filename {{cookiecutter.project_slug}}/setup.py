@@ -34,7 +34,7 @@ test_packages = [
 
 
 setup(
-    name="{{ cookiecutter.project_slug }}",
+    name="{{ cookiecutter.project }}",
     version="0.0.1",
     packages=find_packages(exclude=["notebooks","tests"]),
     long_description=_read("README.md"),
