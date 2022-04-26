@@ -1,4 +1,4 @@
-site_name: { { cookiecutter.project } }
+site_name: {{ cookiecutter.project }}
 
 nav:
   - Home: index.md
