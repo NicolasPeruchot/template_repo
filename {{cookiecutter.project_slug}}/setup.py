@@ -23,6 +23,7 @@ dev_packages = [
     "ipykernel",
     "isort",
     "pre-commit",
+    "mkdocs",
 ]
 
 
