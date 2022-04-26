@@ -24,7 +24,7 @@ jobs:
       - name: Run pre-commit hooks
         run: |
           pip install pre-commit
-          pre-commit run -a
+          pre-commit run -a --hook-stage push
       - name: Setup tests
         run: |
           make setup-tests
