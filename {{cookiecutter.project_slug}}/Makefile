@@ -1,6 +1,6 @@
 cookie:
 	mv * .pre-commit-config.yaml .gitignore ../
-	cd ..; make develop; rm -rf Test.egg-info; mkdir -p .github/workflows; mv ci.yaml .github/workflows
+	cd ..; make develop; rm -rf {{cookiecutter.project}}.egg-info; mkdir -p .github/workflows; mv ci.yaml .github/workflows
 
 develop:
 	pip install -e '.[dev]'
