@@ -8,4 +8,4 @@ Template for projects. Inspired by [this repo](https://github.com/louisguitton/s
     cookiecutter https://github.com/NicolasPeruchot/template_repo
     cd project_dir
     git init
-    git remote add origin git@github.com:NicolasPeruchot/project_dir.git
+    git remote add origin git@github.com:username/project_dir.git
