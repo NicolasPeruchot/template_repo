@@ -14,12 +14,6 @@ base_packages: List[str] = []
 
 dev_packages = [
     "black",
-    "darglint",
-    "flake8",
-    "flake8-bandit",
-    "flake8-annotations",
-    "flake8-bugbear",
-    "flake8-docstrings",
     "ipykernel",
     "isort",
     "pre-commit",
